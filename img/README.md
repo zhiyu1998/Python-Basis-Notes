@@ -1,7 +1,7 @@
 
 ## Python XMind
 
-![](https://img.shields.io/badge/version-8 pro-red.svg)
+![](https://img.shields.io/badge/version-8%20pro-red.svg)
 
 ![](https://img.shields.io/badge/version-ZEN-yellow.svg)
 
