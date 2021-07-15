@@ -1,5 +1,5 @@
 
-## Python XMind
+## Python-XMind-Note
 
 ![](https://img.shields.io/badge/version-8%20pro-red.svg)
 
@@ -7,11 +7,13 @@
 
 ![](https://img.shields.io/badge/适合人群-基础-blue?logo=appveyor&style=for-the-badge)
 
-[TOC]
-
 ### 序言
 
 这个版本是在我大二第一次学python的时候写的思维导图，希望能帮助你，如果你从中获取到了知识或收获，可以点个star哦~
+
+### 更新
+
+2021年7月15日  更名为Python-XMind-Note，【增加数据科学相关】Numpy的MarkDown笔记
 
 ### 基础知识
 
