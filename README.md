@@ -13,7 +13,8 @@
 
 ### 更新
 
-2021年7月15日  更名为Python-XMind-Note，【增加数据科学相关】Numpy的MarkDown笔记
+2021年10月23日 【增加数据科学相关】 *Pandas*的jupyter notebook [注：pandas学习地址 https://www.bilibili.com/video/BV1Ex411L7oT]
+2021年7月15日  更名为Python-XMind-Note，【增加数据科学相关】*Numpy*的MarkDown笔记
 
 ### 基础知识
 
