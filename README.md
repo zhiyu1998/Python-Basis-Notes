@@ -1,5 +1,5 @@
 
-## Python-XMind-Note
+## Python-Basis-Notes
 
 ![](https://img.shields.io/badge/version-8%20pro-red.svg)
 
