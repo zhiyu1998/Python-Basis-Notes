@@ -50,4 +50,5 @@
 
 ### 📈趋势走向图
 
-[![Star History Chart](images/Python-Basis-Notes&type=Date.svg+xml)](https://star-history.com/#zhiyu1998/Python-Basis-Notes&Date)
+![](https://api.star-history.com/svg?repos=zhiyu1998/Python-Basis-Notes&type=Date)
+
