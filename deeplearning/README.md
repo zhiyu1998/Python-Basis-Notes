@@ -16,7 +16,7 @@ title: 我的深度学习路径
 
 ## :mountain_cableway: 路线推荐
 
-机器学习  :arrow_right: 数据操作（推荐观看我的仓库：）  :arrow_right: 深度学习基础（推荐阅读pytorch版本《动手深度学习》：https://zh.d2l.ai/）  :arrow_right: 深度学习基础网络【分类】（推荐观看：https://space.bilibili.com/18161609/channel/series）  :arrow_right: 分支（看研究方向）:arrow_double_up:
+机器学习  :arrow_right: 数据操作（推荐观看我的仓库）  :arrow_right: 深度学习基础（推荐阅读pytorch版本《动手深度学习》：https://zh.d2l.ai/）  :arrow_right: 深度学习基础网络【分类】（推荐观看：https://space.bilibili.com/18161609/channel/series）  :arrow_right: 分支（看研究方向）:arrow_double_up:
 
 > 注：个人建议《动手深度学习》不用读到基础网络（alexnet...）
 
@@ -24,9 +24,70 @@ title: 我的深度学习路径
 
 ## :bookmark_tabs: 推荐书籍和网址
 
-* pytorch内功修炼（Pytorch中文百科） https://www.pytorch.wiki/
+* pytorch内功修炼（Pytorch中文百科）： https://www.pytorch.wiki/
 * 论文理论支撑 （神经网络与深度学习）：https://nndl.github.io/
 * 语法精益（流畅的Pyhon）
+* 奇葩review大赏（娱乐）：https://shitmyreviewerssay.tumblr.com/
+
+
+
+💨其他推荐
+
+* [Pytorch官网](https://pytorch.org/)
+* [飞桨PaddlePaddle官网](https://www.paddlepaddle.org.cn/)
+* [scikit-learn中文社区](https://scikit-learn.org.cn/)
+* [Matplotlib: Python plotting — Matplotlib 3.4.2 documentation](https://matplotlib.org/stable/index.html)
+* [Jittor(计图): 即时编译深度学习框架 — Jittor](https://cg.cs.tsinghua.edu.cn/jittor/)
+* [Dataset Search：数据集搜索](https://datasetsearch.research.google.com/)
+* [TensorFlow官方教程](https://tensorflow.google.cn/tutorials)
+* [Keras：TF封装](https://keras.io/)
+* [Hydra 九头蛇：简化深度学习配置](https://hydra.cc/)
+* [ml-tooling/best-of-ml-python: 🏆 深度学习开源库排行榜](https://github.com/ml-tooling/best-of-ml-python#graph-data)
+* [NumPy 中文](https://www.numpy.org.cn/)
+* [Kaggle: 深度学习竞赛](https://www.kaggle.com/)
+* [Pillow (PIL Fork) ](https://www.osgeo.cn/pillow/index.html)
+* [复杂网络软件 — NetworkX](https://www.osgeo.cn/networkx/index.html)
+* [深度学习在图像处理中的应用教程](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing)
+* [pandas中文教程](http://joyfulpandas.datawhale.club/Content/index.html)
+* [External-Attention-pytorch: 🍀 现成轮子](https://github.com/xmu-xiaoma666/External-Attention-pytorch)
+* [VIT汇总](https://github.com/lucidrains/vit-pytorch)
+* [深度学习500问](https://github.com/scutan90/DeepLearning-500-questions)
+* [深度学习论文阅读路线图](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap)
+* [深度学习论文注释实现](https://github.com/labmlai/annotated_deep_learning_paper_implementations)
+* [深度学习入门教程, 优秀文章](https://github.com/Mikoto10032/DeepLearning)
+* [吴恩达深度学习课程笔记](https://github.com/fengdu78/deeplearning_ai_books)
+* [tensorflow2中文教程，持续更新(当前版本:tensorflow2.0)](https://github.com/czy36mengfei/tensorflow2_tutorials_chinese)
+* [初学者的TensorFlow教程和例子 (support TF v1 & v2)](https://github.com/aymericdamien/TensorFlow-Examples)
+* [简单且准备使用 TensorFlow 的教程](https://github.com/instillai/TensorFlow-Course#why-use-tensorflow)
+* [PyTorch 对于研究人员的教程](https://github.com/yunjey/pytorch-tutorial)
+* [吴恩达机器学习个人笔记](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes)
+* [Matplotlib 中文](https://www.matplotlib.org.cn/)
+* [pytorch-image-models：PyTorch 图像模型、脚本、预训练权重](https://github.com/rwightman/pytorch-image-models)
+* [Flops counter](https://github.com/sovrasov/flops-counter.pytorch)
+* [CVPR 2022 论文和开源项目合集](https://github.com/amusi/CVPR2021-Papers-with-Code)
+* [PyTorch implementations of GAN：对抗神经网络合集](https://github.com/eriklindernoren/PyTorch-GAN)
+* [the-gan-zoo: A list of all named GANs!：对抗神经网络合集](https://github.com/hindupuravinash/the-gan-zoo)
+
+
+
+📚书
+
+* [《计算机视觉实战演练：算法与应用》](https://github.com/Charmve/computer-vision-in-action)
+* [Sklearn 与 TensorFlow 机器学习实用指南第二版](https://hands1ml.apachecn.org/#/)
+* [利用 Python 进行数据分析 · 第 2 版](https://pyda.apachecn.org/#/)
+* [南瓜书PumpkinBook](https://datawhalechina.github.io/pumpkin-book/#/)
+
+
+
+🏣社区
+
+* [Hugging Face 自然语言处理](https://huggingface.co/)
+* [Sieun Park – Medium](https://sieunpark77.medium.com/)
+* [Distill — Latest articles about machine learning](https://distill.pub/)
+* [Towards Data Science](https://towardsdatascience.com/)
+* [Neurohive - Neural Networks](https://neurohive.io/en/)
+* [974 questions with answers in COMPUTER SCIENCE | Science topic](https://www.researchgate.net/topic/Computer-Science)
+* [devRant](https://devrant.com/feed)
 
 
 
