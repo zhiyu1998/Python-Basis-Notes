@@ -26,7 +26,7 @@ title: 我的深度学习路径
 
 * pytorch内功修炼（Pytorch中文百科）： https://www.pytorch.wiki/
 * 论文理论支撑 （神经网络与深度学习）：https://nndl.github.io/
-* 语法精益（流畅的Pyhon）
+* 语法精益（流畅的Python）、数据处理（深入浅出pandas）
 * 奇葩review大赏（娱乐）：https://shitmyreviewerssay.tumblr.com/
 
 

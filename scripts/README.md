@@ -63,7 +63,7 @@ openpyxl~=3.0.10
 
 > 把源码放入到和ref.bib同级位置的地方
 
-<a href="./1-extra_letpub.py" alt="链接">查看详细代码</a>
+[查看详细代码](./1-extra_letpub.py)
 
 结果示例：
 
