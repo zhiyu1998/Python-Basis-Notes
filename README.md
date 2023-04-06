@@ -26,7 +26,7 @@
 * 📚 Scripts 脚本库
 
 ### 📑 在线阅读
-https://zhiyu1998.github.io/Python-Basis-Notes
+https://zhiyu1998.github.io/Python-Basis-Notes/docs/#/
 
 ### 📈趋势走向图
 
