@@ -1559,7 +1559,7 @@ cosy = np.cos(x)
 plt.plot(x, siny) # 以x为横轴，y为纵轴的图像
 ```
 
-![](./img/3-1.png)
+![](img/3-1.png)
 
 ### 绘制两个图、展示
 
@@ -1569,7 +1569,7 @@ plt.plot(x, cosy)
 plt.show() # 展示
 ```
 
-![](./img/3-2.png)
+![](img/3-2.png)
 
 ### 更换线条颜色
 
@@ -1579,7 +1579,7 @@ plt.plot(x, cosy, color='red') # color颜色控制
 plt.show()
 ```
 
-![](./img/3-3.png)
+![](img/3-3.png)
 
 ### 更换线条形状
 
@@ -1589,7 +1589,7 @@ plt.plot(x, cosy, color='red', linestyle='--') # linestyle 线条控制
 plt.show()
 ```
 
-![](./img/3-4.png)
+![](img/3-4.png)
 
 ### 调节x轴位置
 
@@ -1600,7 +1600,7 @@ plt.xlim(-5, 15) # 调节 x
 plt.show()
 ```
 
-![](./img/3-5.png)
+![](img/3-5.png)
 
 ### 调节y轴位置
 
@@ -1612,7 +1612,7 @@ plt.ylim(0, 1.5) # 调节y
 plt.show()
 ```
 
-![](./img/3-6.png)
+![](img/3-6.png)
 
 ### 同时调节x、y轴位置
 
@@ -1623,7 +1623,7 @@ plt.axis([-1, 11, -2, 2]) # 调节 x y
 plt.show()
 ```
 
-![](./img/3-7.png)
+![](img/3-7.png)
 
 ### 添加横纵轴描述
 
@@ -1635,7 +1635,7 @@ plt.ylabel('y value') # 纵轴添加描述
 plt.show()
 ```
 
-![](./img/3-8.png)
+![](img/3-8.png)
 
 ### 添加标签提示
 
@@ -1648,7 +1648,7 @@ plt.legend() # 添加标签后
 plt.show()
 ```
 
-![](./img/3-9.png)
+![](img/3-9.png)
 
 ### 添加标题
 
@@ -1662,7 +1662,7 @@ plt.title('Welcome to ML world!') # 标题
 plt.show()
 ```
 
-![](./img/3-10.png)
+![](img/3-10.png)
 
 ### 散点图
 
@@ -1672,7 +1672,7 @@ plt.scatter(x, cosy, color='red')
 plt.show()
 ```
 
-![](./img/3-11.png)
+![](img/3-11.png)
 
 ```python
 x = np.random.normal(0, 1, 10000)
@@ -1682,5 +1682,5 @@ plt.scatter(x, y, alpha=0.1) # alpha透明度
 plt.show()
 ```
 
-![](./img/3-12.png)
+![](img/3-12.png)
 

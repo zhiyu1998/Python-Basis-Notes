@@ -20,7 +20,7 @@ overleaf参考论文示例：
 
 
 
-![1](./images/ref-1-1.png)
+![1](images/ref-1-1.png)
 
 ```
 @article{yu2019review,
@@ -63,11 +63,11 @@ openpyxl~=3.0.10
 
 > 把源码放入到和ref.bib同级位置的地方
 
-[查看详细代码](./1-extra_letpub.py)
+[查看详细代码](1-extra_letpub.py)
 
 结果示例：
 
-![1](./images/ref-1-2.png)
+![1](images/ref-1-2.png)
 
 #### 版本更新说明
 

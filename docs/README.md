@@ -1,8 +1,8 @@
-## Python-Basis-Notes
+# 导读
 
 <p align="center">
   <a href="https://github.com/zhiyu1998/Python-Basis-Notes">
-    <img width="200" src="docs/base/images/logo.png">
+    <img width="200" src="base/images/logo.png">
   </a>
 </p>
 
@@ -19,16 +19,8 @@
 <br />
 <br />
 
-* 🐍 Python基础
-* 📊 Numpy基础
+* 🐍 [Python基础](base/README.md)
+* 📊 [Numpy基础](numpy/README.md)
 * 🐼 Pandas基础
-* 🍥 DeepLearning基础 + 路线
-* 📚 Scripts 脚本库
-
-### 📑 在线阅读
-https://zhiyu1998.github.io/Python-Basis-Notes
-
-### 📈趋势走向图
-
-![](https://api.star-history.com/svg?repos=zhiyu1998/Python-Basis-Notes&type=Date)
-
+* 🍥 [DeepLearning基础 + 路线](deeplearning/README.md)
+* 📚 [Scripts 脚本库](scripts/README.md)
