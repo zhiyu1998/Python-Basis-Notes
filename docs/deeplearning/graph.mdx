@@ -1,0 +1,30 @@
+---
+sidebar_position: 2
+---
+
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '20px',
+      color: '#fff',
+      padding: '10px',
+      cursor: 'pointer',
+    }}
+    onClick={() => {
+      alert(`You clicked the color ${color} with label ${children}`);
+    }}>
+    {children}
+  </span>
+);
+
+# 图卷积神经网络（持续更新）
+
+## 文献分享
+- Graph convolutional networks: a comprehensive review <Highlight color="#1877F2">通用参考の交通流预测</Highlight>：https://computationalsocialnetworks.springeropen.com/articles/10.1186/s40649-019-0069-y
+- A Survey of Traffic Prediction: from Spatio-Temporal Data to Intelligent Transportation <Highlight color="#1877F2">通用参考の交通流预测</Highlight>：https://link.springer.com/article/10.1007/s41019-020-00151-z
+- A Survey on Modern Deep Neural Network for Traffic Prediction: Trends, Methods and Challenges <Highlight color="#1877F2">通用参考の交通流预测</Highlight>：https://ieeexplore.ieee.org/document/9112608
+- A Summary of Traffic Flow Forecasting Methods <Highlight color="#1877F2">通用参考の交通流预测</Highlight>：http://www.gljtkj.com/EN/Y2004/V21/I3/82
+- A comprehensive survey on graph neural networks <Highlight color="#1877F2">通用参考の交通流预测</Highlight>：https://ieeexplore.ieee.org/abstract/document/9046288?casa_token=_-IU9Ixzx8kAAAAA:vcOheOMCzaaZRi5lykrhdY0CwfuoOiRU3lrdmA8uSXv1Auu8z9LrB67_JfrnSyjhoNEHbCAauz9atg
+- 切比雪夫多项式（Chebyshev polynomials） <Highlight color="#1877F2">通用参考の交通流预测</Highlight>：https://proceedings.neurips.cc/paper_files/paper/2016/hash/04df4d434d481c5bb723be1b6df1ee65-Abstract.html
+- 2023年全球道路安全状况报告（Global status report on road safety 2023） <Highlight color="#1877F2">通用参考の交通流预测</Highlight>：https://www.who.int/teams/social-determinants-of-health/safety-and-mobility/global-status-report-on-road-safety-2023

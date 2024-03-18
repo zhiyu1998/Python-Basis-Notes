@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # 深度学习之学习路线
 
 ## :checkered_flag: 前言
