@@ -1,7 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0591ff62-45e9-46bc-9ada-0edb71ff492b" name="Changes" comment="">
+    <list default="true" id="0591ff62-45e9-46bc-9ada-0edb71ff492b" name="Changes" comment="📃 docs: 更新文档主题">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/documentation.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/basics/_category_.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/basics/base.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/basics/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/basics/images/函数.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/basics/images/基础知识.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/basics/images/文件.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/basics/images/模块.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/basics/images/爬虫.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/basics/images/类和对象.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/basics/images/魔法方法.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/data-analysis/_category_.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/data-analysis/files/01-choice_data.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/data-analysis/files/02-setting-value.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/data-analysis/files/03-process-dropout-data.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/data-analysis/files/04-import-and-export.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/data-analysis/files/05-concat.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/data-analysis/files/06-merge.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/data-analysis/files/07-plot.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/data-analysis/files/student.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/data-analysis/img/3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/data-analysis/img/3-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/data-analysis/img/3-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/data-analysis/img/3-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/data-analysis/img/3-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/data-analysis/img/3-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/data-analysis/img/3-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/data-analysis/img/3-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/data-analysis/img/3-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/data-analysis/img/3-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/data-analysis/img/3-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/data-analysis/img/3-9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/data-analysis/numpy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/data-analysis/pandas.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/deeplearning/_category_.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/deeplearning/deeplearning.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/intro.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/scripts/_category_.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docusaurus.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidebars.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HomepageFeatures/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HomepageFeatures/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/index.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/markdown-page.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/.nojekyll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/docusaurus-social-card.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/docusaurus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/undraw_docusaurus_mountain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/undraw_docusaurus_react.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/undraw_docusaurus_tree.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.nojekyll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" />
@@ -70,8 +129,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Program Files (x86)/nodejs/node_modules/npm",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "npm.start.executor": "Run",
+    "ts.external.directory.path": "C:\\Users\\RrOrange\\Documents\\Github\\Python-Basis-Notes\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -101,11 +165,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710768353475</updated>
-      <workItem from="1710768355298" duration="133000" />
+      <workItem from="1710768355298" duration="452000" />
     </task>
+    <task id="LOCAL-00001" summary="📃 docs: 更新文档主题">
+      <option name="closed" value="true" />
+      <created>1710768805576</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710768805576</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" docs: 更新文档主题" />
+    <option name="LAST_COMMIT_MESSAGE" value=" docs: 更新文档主题" />
   </component>
 </project>
