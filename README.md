@@ -13,7 +13,7 @@
 [![访问量](https://profile-counter.glitch.me/Python-Basis-Notes/count.svg)](https://github.com/zhiyu1998/Python-Basis-Notes)
 
 
-<img src="https://cdn.jsdelivr.net/gh/xianxincoder/xianxincoder/assets/github-contribution-grid-snake.svg">
+<img src="https://raw.githubusercontent.com/javadog-net/javadog-net/output/github-contribution-grid-snake.svg">
 
 </div>
 <br />
@@ -26,7 +26,7 @@
 * 📚 Scripts 脚本库
 
 ### 📑 在线阅读
-https://zhiyu1998.github.io/Python-Basis-Notes/docs/#/
+https://zhiyu1998.github.io/Python-Basis-Notes/
 
 ### 📈趋势走向图
 
