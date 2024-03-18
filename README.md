@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/zhiyu1998/Python-Basis-Notes">
-    <img width="200" src="docs/base/images/logo.png">
+    <img width="200" src="./static/img/logo.png">
   </a>
 </p>
 
