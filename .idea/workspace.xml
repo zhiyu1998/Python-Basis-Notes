@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0591ff62-45e9-46bc-9ada-0edb71ff492b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.nojekyll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_coverpage.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/base/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/base/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/base/images/函数.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/base/images/基础知识.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/base/images/文件.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/base/images/模块.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/base/images/爬虫.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/base/images/类和对象.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/base/images/魔法方法.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/deeplearning/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/numpy/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/numpy/img/3-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/numpy/img/3-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/numpy/img/3-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/numpy/img/3-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/numpy/img/3-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/numpy/img/3-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/numpy/img/3-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/numpy/img/3-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/numpy/img/3-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/numpy/img/3-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/numpy/img/3-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/numpy/img/3-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pandas/01-choice_data.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pandas/02-setting-value.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pandas/03-process-dropout-data.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pandas/04-import-and-export.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pandas/05-concat.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pandas/06-merge.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pandas/07-plot.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pandas/student.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/scripts/1-extra_letpub.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/scripts/1-extra_letpub.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/scripts/2-extra_syntaogf.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/scripts/2-extra_syntaogf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/scripts/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/scripts/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2drZr3cdWVk9kIKZJ7NM1MPKEj0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Program Files (x86)/nodejs/node_modules/npm",
+    "nodejs_package_manager_path": "npm",
+    "npm.start.executor": "Run",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="C:\Program Files (x86)\nodejs\node_modules\npm" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0591ff62-45e9-46bc-9ada-0edb71ff492b" name="Changes" comment="" />
+      <created>1710768353475</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710768353475</updated>
+      <workItem from="1710768355298" duration="133000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

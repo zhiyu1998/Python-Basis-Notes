@@ -1,84 +1,90 @@
+---
+sidebar_position: 1
+---
+
+# 数据分析：Numpy
+
 - [numpy基础](#numpy基础)
-  - [引入原因](#引入原因)
-  - [创建数组和矩阵方法](#创建数组和矩阵方法)
-    - [array 创建](#array-创建)
-    - [dtype 查看类型](#dtype-查看类型)
-    - [zeros 创建 0 向量](#zeros-创建-0-向量)
-    - [ones 创建 1 向量](#ones-创建-1-向量)
-    - [full 创建一个自定义的向量](#full-创建一个自定义的向量)
-    - [arange](#arange)
-    - [linspace](#linspace)
-    - [random](#random)
-    - [通过帮助函数查看官方文档](#通过帮助函数查看官方文档)
-  - [基本属性](#基本属性)
-    - [ndim 查看数组和维度](#ndim-查看数组和维度)
-    - [shape 查看各位维度大小的元组](#shape-查看各位维度大小的元组)
-    - [size 返回元素个数](#size-返回元素个数)
-  - [数据访问](#数据访问)
-    - [基本访问](#基本访问)
-    - [改变数值](#改变数值)
-    - [reshape函数](#reshape函数)
-  - [合并和分割](#合并和分割)
-    - [合并](#合并)
-      - [concatenate合并](#concatenate合并)
-      - [stack的合并](#stack的合并)
-        - [vstack](#vstack)
-        - [hstack](#hstack)
-    - [分割](#分割)
-      - [split分割](#split分割)
-        - [分割一维数组](#分割一维数组)
-        - [分割矩阵](#分割矩阵)
-      - [v/hsplit分割](#vhsplit分割)
-    - [意义](#意义)
-  - [矩阵的运算](#矩阵的运算)
-    - [使用原生列表进行运算](#使用原生列表进行运算)
-    - [使用numpy解决运算问题](#使用numpy解决运算问题)
-    - [Universal Functions](#universal-functions)
-    - [矩阵运算](#矩阵运算)
-      - [普通运算](#普通运算)
-      - [矩阵乘法](#矩阵乘法)
-      - [矩阵的转置](#矩阵的转置)
-      - [非法运算](#非法运算)
-    - [向量和矩阵的运算](#向量和矩阵的运算)
-      - [直接进行相加](#直接进行相加)
-      - [使用stack函数解决](#使用stack函数解决)
-      - [使用tile堆叠函数解决](#使用tile堆叠函数解决)
-      - [向量和矩阵的乘法](#向量和矩阵的乘法)
-    - [矩阵的逆运算](#矩阵的逆运算)
-      - [逆矩阵-inalg.inv](#逆矩阵-inalginv)
-      - [伪逆矩阵-inalg.pinv](#伪逆矩阵-inalgpinv)
-  - [聚合运算](#聚合运算)
-    - [python自带的聚合运算和numpy比较](#python自带的聚合运算和numpy比较)
-    - [numpy带的聚合运算整理](#numpy带的聚合运算整理)
-  - [索引](#索引)
-    - [获取最小值索引](#获取最小值索引)
-    - [获取最大值索引](#获取最大值索引)
-  - [排序和使用索引](#排序和使用索引)
-    - [shuffle 打乱顺序](#shuffle-打乱顺序)
-    - [sort 排序](#sort-排序)
-    - [argsort 索引排序](#argsort-索引排序)
-    - [partition 快速排序的划分](#partition-快速排序的划分)
-  - [Fancy Indexing](#fancy-indexing)
-  - [numpy.array 的比较](#numpyarray-的比较)
-    - [应用](#应用)
-      - [sum 的逻辑运算符](#sum-的逻辑运算符)
-      - [count_nonzero 没有0的个数](#count_nonzero-没有0的个数)
-      - [any](#any)
-      - [all](#all)
-      - [直接在括号中逻辑判断](#直接在括号中逻辑判断)
-  - [matplotlib 数据可视化基础](#matplotlib-数据可视化基础)
-    - [导入库](#导入库)
-    - [绘画一个图](#绘画一个图)
-    - [绘制两个图、展示](#绘制两个图展示)
-    - [更换线条颜色](#更换线条颜色)
-    - [更换线条形状](#更换线条形状)
-    - [调节x轴位置](#调节x轴位置)
-    - [调节y轴位置](#调节y轴位置)
-    - [同时调节x、y轴位置](#同时调节xy轴位置)
-    - [添加横纵轴描述](#添加横纵轴描述)
-    - [添加标签提示](#添加标签提示)
-    - [添加标题](#添加标题)
-    - [散点图](#散点图)
+    - [引入原因](#引入原因)
+    - [创建数组和矩阵方法](#创建数组和矩阵方法)
+        - [array 创建](#array-创建)
+        - [dtype 查看类型](#dtype-查看类型)
+        - [zeros 创建 0 向量](#zeros-创建-0-向量)
+        - [ones 创建 1 向量](#ones-创建-1-向量)
+        - [full 创建一个自定义的向量](#full-创建一个自定义的向量)
+        - [arange](#arange)
+        - [linspace](#linspace)
+        - [random](#random)
+        - [通过帮助函数查看官方文档](#通过帮助函数查看官方文档)
+    - [基本属性](#基本属性)
+        - [ndim 查看数组和维度](#ndim-查看数组和维度)
+        - [shape 查看各位维度大小的元组](#shape-查看各位维度大小的元组)
+        - [size 返回元素个数](#size-返回元素个数)
+    - [数据访问](#数据访问)
+        - [基本访问](#基本访问)
+        - [改变数值](#改变数值)
+        - [reshape函数](#reshape函数)
+    - [合并和分割](#合并和分割)
+        - [合并](#合并)
+            - [concatenate合并](#concatenate合并)
+            - [stack的合并](#stack的合并)
+                - [vstack](#vstack)
+                - [hstack](#hstack)
+        - [分割](#分割)
+            - [split分割](#split分割)
+                - [分割一维数组](#分割一维数组)
+                - [分割矩阵](#分割矩阵)
+            - [v/hsplit分割](#vhsplit分割)
+        - [意义](#意义)
+    - [矩阵的运算](#矩阵的运算)
+        - [使用原生列表进行运算](#使用原生列表进行运算)
+        - [使用numpy解决运算问题](#使用numpy解决运算问题)
+        - [Universal Functions](#universal-functions)
+        - [矩阵运算](#矩阵运算)
+            - [普通运算](#普通运算)
+            - [矩阵乘法](#矩阵乘法)
+            - [矩阵的转置](#矩阵的转置)
+            - [非法运算](#非法运算)
+        - [向量和矩阵的运算](#向量和矩阵的运算)
+            - [直接进行相加](#直接进行相加)
+            - [使用stack函数解决](#使用stack函数解决)
+            - [使用tile堆叠函数解决](#使用tile堆叠函数解决)
+            - [向量和矩阵的乘法](#向量和矩阵的乘法)
+        - [矩阵的逆运算](#矩阵的逆运算)
+            - [逆矩阵-inalg.inv](#逆矩阵-inalginv)
+            - [伪逆矩阵-inalg.pinv](#伪逆矩阵-inalgpinv)
+    - [聚合运算](#聚合运算)
+        - [python自带的聚合运算和numpy比较](#python自带的聚合运算和numpy比较)
+        - [numpy带的聚合运算整理](#numpy带的聚合运算整理)
+    - [索引](#索引)
+        - [获取最小值索引](#获取最小值索引)
+        - [获取最大值索引](#获取最大值索引)
+    - [排序和使用索引](#排序和使用索引)
+        - [shuffle 打乱顺序](#shuffle-打乱顺序)
+        - [sort 排序](#sort-排序)
+        - [argsort 索引排序](#argsort-索引排序)
+        - [partition 快速排序的划分](#partition-快速排序的划分)
+    - [Fancy Indexing](#fancy-indexing)
+    - [numpy.array 的比较](#numpyarray-的比较)
+        - [应用](#应用)
+            - [sum 的逻辑运算符](#sum-的逻辑运算符)
+            - [count_nonzero 没有0的个数](#count_nonzero-没有0的个数)
+            - [any](#any)
+            - [all](#all)
+            - [直接在括号中逻辑判断](#直接在括号中逻辑判断)
+    - [matplotlib 数据可视化基础](#matplotlib-数据可视化基础)
+        - [导入库](#导入库)
+        - [绘画一个图](#绘画一个图)
+        - [绘制两个图、展示](#绘制两个图展示)
+        - [更换线条颜色](#更换线条颜色)
+        - [更换线条形状](#更换线条形状)
+        - [调节x轴位置](#调节x轴位置)
+        - [调节y轴位置](#调节y轴位置)
+        - [同时调节x、y轴位置](#同时调节xy轴位置)
+        - [添加横纵轴描述](#添加横纵轴描述)
+        - [添加标签提示](#添加标签提示)
+        - [添加标题](#添加标题)
+        - [散点图](#散点图)
 
 # numpy基础
 
@@ -822,7 +828,7 @@ L = np.arange(n)
 * //
 * **
 * %
-* 1 / 
+* 1 /
 * abs
 * sin
 * cos
@@ -977,7 +983,7 @@ array([[0, 1],
 
 #### 逆矩阵-inalg.inv
 
-线性代数的英文：**<font color="#2980b9">linear algebra</font>**
+线性代数的英文：**linear algebra**
 
 ```python
 invA = np.linalg.inv(A) #linalg是线性代数的缩写，inv是逆转
@@ -1132,7 +1138,7 @@ np.min(x)
 
 ### 获取最小值索引
 
-<font color="#2ecc71">**numpy.argmin()**</font>
+**numpy.argmin()**
 
 ```python
 np.argmin(x) # 最小值的索引
@@ -1144,7 +1150,7 @@ x[630547]
 
 ### 获取最大值索引
 
-<font color="#2ecc71">**numpy.argmax()**</font>
+**numpy.argmax()**
 
 ```python
 np.argmax(x)
@@ -1167,7 +1173,7 @@ x = np.arange(16)
 
 ### shuffle 打乱顺序
 
-<font color="#2ecc71">**numpy.random.shuffle()**</font>
+**numpy.random.shuffle()**
 
 ```python
 np.random.shuffle(x) # 打乱顺序
@@ -1176,7 +1182,7 @@ np.random.shuffle(x) # 打乱顺序
 
 ### sort 排序
 
-<font color="#2ecc71">**numpy.sort()**</font>
+**numpy.sort()**
 
 对于一维数组：
 
@@ -1201,8 +1207,8 @@ np.sort(X) # 每一行进行排序
 #        [1, 4, 6, 9]])
 ```
 
-* <font color="#2980b9">axis = 1</font> 按行进行排序
-* <font color="#2980b9">axis = 0</font> 按列进行排序
+* axis = 1 按行进行排序
+* axis = 0 按列进行排序
 
 ```python
 np.sort(X, axis=1) # 按行进行排序
@@ -1220,7 +1226,7 @@ np.sort(X, axis=0) # 按列进行排序
 
 ### argsort 索引排序
 
-<font color="#2ecc71">**numpy.argsort ()**</font>
+**numpy.argsort ()**
 
 再次打乱顺序：
 
@@ -1241,9 +1247,9 @@ np.argsort(x) # 索引排序
 
 ### partition 快速排序的划分
 
-<font color="#2ecc71">**numpy.partition()**</font>
+**numpy.partition()**
 
-<font color="#2ecc71">**numpy.argpartition()**</font>
+**numpy.argpartition()**
 
 ```python
 np.partition(x, 3) # 快速排序部分,3前面的数据都比3小，3后面的数据都比3大
@@ -1559,7 +1565,7 @@ cosy = np.cos(x)
 plt.plot(x, siny) # 以x为横轴，y为纵轴的图像
 ```
 
-![](img/3-1.png)
+![](./img/3-1.png)
 
 ### 绘制两个图、展示
 
@@ -1569,7 +1575,7 @@ plt.plot(x, cosy)
 plt.show() # 展示
 ```
 
-![](img/3-2.png)
+![](./img/3-2.png)
 
 ### 更换线条颜色
 
@@ -1579,7 +1585,7 @@ plt.plot(x, cosy, color='red') # color颜色控制
 plt.show()
 ```
 
-![](img/3-3.png)
+![](./img/3-3.png)
 
 ### 更换线条形状
 
@@ -1589,7 +1595,7 @@ plt.plot(x, cosy, color='red', linestyle='--') # linestyle 线条控制
 plt.show()
 ```
 
-![](img/3-4.png)
+![](./img/3-4.png)
 
 ### 调节x轴位置
 
@@ -1600,7 +1606,7 @@ plt.xlim(-5, 15) # 调节 x
 plt.show()
 ```
 
-![](img/3-5.png)
+![](./img/3-5.png)
 
 ### 调节y轴位置
 
@@ -1612,7 +1618,7 @@ plt.ylim(0, 1.5) # 调节y
 plt.show()
 ```
 
-![](img/3-6.png)
+![](./img/3-6.png)
 
 ### 同时调节x、y轴位置
 
@@ -1623,7 +1629,7 @@ plt.axis([-1, 11, -2, 2]) # 调节 x y
 plt.show()
 ```
 
-![](img/3-7.png)
+![](./img/3-7.png)
 
 ### 添加横纵轴描述
 
@@ -1635,7 +1641,7 @@ plt.ylabel('y value') # 纵轴添加描述
 plt.show()
 ```
 
-![](img/3-8.png)
+![](./img/3-8.png)
 
 ### 添加标签提示
 
@@ -1648,7 +1654,7 @@ plt.legend() # 添加标签后
 plt.show()
 ```
 
-![](img/3-9.png)
+![](./img/3-9.png)
 
 ### 添加标题
 
@@ -1662,7 +1668,7 @@ plt.title('Welcome to ML world!') # 标题
 plt.show()
 ```
 
-![](img/3-10.png)
+![](./img/3-10.png)
 
 ### 散点图
 
@@ -1672,7 +1678,7 @@ plt.scatter(x, cosy, color='red')
 plt.show()
 ```
 
-![](img/3-11.png)
+![](./img/3-11.png)
 
 ```python
 x = np.random.normal(0, 1, 10000)
@@ -1682,5 +1688,5 @@ plt.scatter(x, y, alpha=0.1) # alpha透明度
 plt.show()
 ```
 
-![](img/3-12.png)
+![](./img/3-12.png)
 
