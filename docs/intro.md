@@ -5,7 +5,7 @@
 * 📊 [Numpy基础](./data-analysis/numpy.md)
 * 🐼 [Pandas基础](./data-analysis/pandas.md)
 * 🍥 [DeepLearning基础 + 路线](./deeplearning/deeplearning.md)
-* 📚 [Scripts 脚本库](./scripts/README.md)
+* 📚 [Scripts 脚本库](./scripts/letpub)
 
 ### 📑 在线阅读
 
